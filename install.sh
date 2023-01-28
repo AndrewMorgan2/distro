@@ -67,7 +67,7 @@ if [[ `uname -a` == *"ARCH"* ]]; then
 fi
 
 echo "Installing Lua version: ${TORCH_LUA_VERSION}"
-mkdir -p install
+mkdir -p $PREFIX
 mkdir -p build
 cd build
 echo "$PWD"
